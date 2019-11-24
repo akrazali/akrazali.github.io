@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canyon Uzbekistan - Order</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+
+</head>
+<body>
+    <div class="navbar navbar-transparent navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo2.png" alt=""></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="road.html">Road</a></li>
+                    <li><a href="mountain.html">Mountain</a></li>
+                    <li><a href="size-chart.html">Size Chart</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="https://www.canyon.com"><i class="fa fa-globe"></i> Global</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="fresh">
+            <img src="images/fresh.jpg" alt="">
+        </div>
+        <div class="option">
+            <div class="left">
+                <label for="bouquets"><h1>Choose a bicycle: </h1></label>
+                <select id="delivery" class="bouquet__select">
+                    <option value="">Make a choice</option>
+                    <option value="choice1">Endurace</option>
+                    <option value="choice2">Grail</option>
+                    <option value="choice3">Aeroad</option>
+                    <option value="choice4">Neuron</option>
+                    <option value="choice5">Dude</option>
+                    <option value="choice6">Lux</option>
+                </select>
+                <button class="btn_order" id="display">BUY WITH ONE-CLICK</button>                 
+            </div>
+            <div class="right">
+                <p class="message"></p>
+            </div>
+        </div>
+        <div class="hidden-area">
+            <form>
+                <input  id="name-p" class="input" type="text" placeholder="Full name" required>
+                <input  id="email" class="input" type="email" placeholder="Email" required>
+                <input  id="phone" class="input" type="text" placeholder="Phone" required>
+                <textarea id="wishes" class="input" type="text" cols="20" rows="5" placeholder="Additional wishes"></textarea>
+                <div class="back">
+                    <button id="call">Call</button>
+                    <button id="hide">Cancel</button>
+                </div>  
+            </form>
+        </div>              
+    </div>
+    
+
+
+    <div id="footer">
+        <div class="container">
+            <div class="row centered">
+                <a href="https://www.canyon.com"><i class="fa fa-globe"></i></a>
+                <a href="https://www.instagram.com/canyon_na/?hl=en"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/user/purecycling"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://twitter.com/canyon_bikes"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/Canyon.NA/"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="row centered disclaimer">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h4>This web site was created to fulfill Web Technologies module’s requirements and does not represent actual company or service. Designed by <span>00007993</span>.</h4>
+                    <a class="btn btn-outline-success" href="report/00007993.pdf" role="button">download the report </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/order.js"></script>
+
+</body>
+
+</html>

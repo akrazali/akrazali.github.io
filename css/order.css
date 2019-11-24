@@ -1,0 +1,80 @@
+.btn_press{
+	width: 245px;
+	height: 45px;
+	font-size: 18px; 
+	margin-top: 45px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+	background: grey;
+	outline: none;
+}
+
+.message {
+	width: 55%;
+	margin: 10px 0;
+	padding: 20px;
+	border-radius: 5px;
+}
+.message img {
+	width: 120%;
+	object-fit: contain;
+}
+
+.hidden-area{
+	width: 50%;
+	display: none;
+	margin: 0 auto;
+	border: 4px solid #d2a9d16c;
+	border-radius: 5px;
+	flex-direction: column;
+	background-color:#d2a9d127;
+}
+.hidden-area{
+	width: 50%;
+	display: none;
+	margin: 0 auto;
+	border: 4px solid #d2a9d16c;
+	border-radius: 5px;
+	flex-direction: column;
+	background-color:#d2a9d127;
+}
+
+form {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto;
+}
+input, textarea{
+	margin: 10px 0;
+	padding: 8px 15px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid rgba(78, 78, 78, 0.507);
+	outline: none;
+}
+#hide, #call {
+	display: flex;
+	width: 30%;	
+	margin: 10px auto;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 5px 20px;
+	border-radius: 5px;
+	background-color: #fff;
+	outline: none;
+	text-align: center;
+
+}
+#hide:hover, #call:hover {
+    background-color: #d2a9d16c;
+}
+.back{
+	width: 100%;
+	margin-bottom: 30px ;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}

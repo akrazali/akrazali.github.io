@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+/*the whole page style*/
+body {
+    background-color: #fafafa;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #444444;
+
+    -webkit-font-smoothing: antialiased;
+    margin-top: 70px;
+
+}
+/*navbar styles*/
+.logo {
+    width: 204px;
+    height: 46px;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+
+}
+
+.centered {
+    text-align: center;
+
+}
+
+.navbar a {
+    font-family: 'Lucida Sans' !important;
+    font-weight: 100 !important;
+    color: #4d4c4c !important;
+}
+
+.navbar a:hover {
+    color: #fafafa !important;
+}
+
+a {
+    color: #111;
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    border: 0;
+    margin: 1em 0;
+    padding: 0;
+
+}
+
+.navbar {
+    font-size: 19px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+.navbar-inverse {
+    background: #d8d8d8;
+    border-color: #d8d8d8;
+    
+}
+
+.navbar-inverse, .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+/*headerwrap*/
+#headerwrap {
+    background: url(../img/headimg_black_white.jpg) ;
+    margin-top: 0;
+    padding-top: 180px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+}
+
+#headerwrap h1 {
+    margin-top: 0;
+    color: #ebebeb;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Lato;
+    letter-spacing: 3px;
+
+}
+
+#headerwrap h2 {
+    color: #c9c9c9;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Lato;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*why canyon container style*/
+.whyus {
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+.whycanyon {
+    padding-bottom: 30px;
+}
+
+.whyus h4 {
+    font-size: 28px;
+
+}
+
+/*box style*/
+.whyus-box {
+    height: 540px;
+}
+
+/*explore container*/
+#explore {
+    background: #e2e2e2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: Lato;
+
+}
+
+#explore h4 {
+    font-size: 25px;
+    padding-bottom: 0;
+
+}
+
+/*tilt dynamic effects*/
+.tilt span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #505050;
+}
+
+.tilt {
+    transition: all 0.5s ease;
+
+}
+
+.tilt:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/*footer style*/
+#footer {
+    background: #575757;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+#footer i {
+    color: #cccccc;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#footer i:hover {
+    color: #f5f5f5;
+}
+
+.disclaimer h4 {
+    color: #cccccc;
+    padding: 10px;
+}
+
+.disclaimer span {
+    color: #e4906f;
+}
+
+.btn-outline-success { 
+    color: #e4e3e3;
+    font-family: "Lato";
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 46px 30px 46px;
+    transition: all .5s;
+}
+/*store road & mtb page style*/
+.store {
+    padding-top: 20px;
+    max-width: 300px;
+}
+
+.middle-item {
+    background-color: #f5f5f5;
+}
+
+.store-dude {
+    padding-top: 15px;
+    max-width: 300px;
+}
+
+.store-header {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.store h4 {
+    font-size: 20px;
+    color: #585858;
+}
+
+.middle-item h4 {
+    font-size: 20px;
+    color: #585858;
+}
+
+.store h2 {
+    font-size: 24px;
+    color: #8d8c8c;
+}
+
+.middle-item h2 {
+    font-size: 24px;
+    color: #8d8c8c;
+}
+
+.store-img {
+    height: auto; 
+    width: auto; 
+    max-width: 750px; 
+    max-height: 750px;
+    padding-top: 60px;
+}
+
+.store-img-dude {
+    height: auto; 
+    width: auto; 
+    max-width: 750px; 
+    max-height: 750px;
+    padding-top: 60px;
+}
+
+.neuron {
+    padding-bottom: 40px;
+}
+
+.box {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+/*size-chart header style*/
+.size-chart-header {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+/*size-chart image style*/
+.size-chart-img img {
+    max-height: 500px;
+    max-width: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
